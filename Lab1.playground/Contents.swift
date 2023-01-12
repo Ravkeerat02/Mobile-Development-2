@@ -66,3 +66,11 @@ case(-2...2,-3...3):
 default:
     print("off grid")
 }
+for c in 1..<5{
+    print(c)
+}
+
+gameLoop: while true{
+    break gameLoop
+}
+
